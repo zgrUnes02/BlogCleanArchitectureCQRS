@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BlogCQRS.Application\BlogCQRS.Application.csproj" />
+    <ProjectReference Include="..\BlogCQRS.Domain\BlogCQRS.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
